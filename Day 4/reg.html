@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Internship Registration Form</title>
+</head>
+<body style = 'color :rgb(95, 68, 183);'>
+
+    <h2>Online Internship Registration Form</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label>Full Name:</label>
+            <input type="text" name="fullname" required><br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" required><br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" required><br><br>
+
+            <label>College Name:</label>
+            <input type="text" name="college"><br><br>
+
+            <label>Branch:</label>
+            <input type="text" name="branch"><br><br>
+        </fieldset>
+
+        <br>
+
+
+        <fieldset>
+            <legend>Skills</legend>
+
+            <input type="checkbox" name="skills" value="HTML"> HTML
+            <input type="checkbox" name="skills" value="CSS"> CSS
+            <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+            <input type="checkbox" name="skills" value="Python"> Python
+            <input type="checkbox" name="skills" value="SQL"> SQL
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Preferred Technology</legend>
+
+            <input type="radio" name="technology" value="Web Development"> Web Development<br>
+            <input type="radio" name="technology" value="Data Science"> Data Science<br>
+            <input type="radio" name="technology" value="Machine Learning"> Machine Learning<br>
+            <input type="radio" name="technology" value="Cyber Security"> Cyber Security<br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Project Interests</legend>
+
+            <textarea rows="5" cols="40"
+                placeholder="Describe your project interests here..."></textarea>
+        </fieldset>
+
+        <br>
+
+      
+        <input type="checkbox" required>
+        <label>
+            I hereby declare that the information provided is true and correct.
+        </label>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
